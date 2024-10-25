@@ -1,0 +1,42 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem;
+  color: #b2c8de;
+}
+hr{
+  margin: 20px auto;  /*very important isko change kar karke dekho tab samaj aayega*/
+  color: #F05F44;
+  border: 3px solid #F05F44 ;
+  max-width: 65px;   /*very important isko change kar karke dekho tab samaj aayega*/
+  opacity: 1;        /*1 means pura pura dikhega*/
+}
+.buffer{
+        height: 10rem;
+}
+.btn{
+        font-weight: 700;
+        border-radius: 300px;
+        text-transform: uppercase;
+      }
+.btn-primary{
+        background-color: #F05F44;
+        border-color: #F05F44 ;
+}
+.btn-primary:hover{
+        background-color: #ee4b08;
+        border-color: #ee4b08 ;
+        border-width: 4px;
+}
+.btn-xl{
+        font-size: 2rem;
+}
